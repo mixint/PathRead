@@ -16,9 +16,9 @@
   "author": "Colten Jackson",
   "license": "SEE LICENSE IN CONTINUITY.LICENSE",
   "dependencies": {
-    "@mixint/mimemap": "^2.0.0",
+    "@mixint/extrastat": "^1.0.0",
     "@mixint/transflect": "^0.2.0",
-    "parsedmessage": "^0.2.0",
-    "serverfailsoft": "^1.1.0"
+    "parsedmessage": "^3.0.1",
+    "serverfailsoft": "^1.2.3"
   }
 }

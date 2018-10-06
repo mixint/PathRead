@@ -1,7 +1,7 @@
 let fs = require('fs')
 let path = require('path')
 let stream = require('stream')
-let extrastat = require('@mixint/extrastat')
+let extraStat = require('@mixint/extrastat')
 let Transflect = require('@mixint/transflect')
 
 /**
