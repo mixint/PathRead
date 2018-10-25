@@ -27,10 +27,10 @@ module.exports = class PathRead extends Transflect {
      * Sets headers, then switches `this.stream` on to flow directly to the destination,
      * this.pipes is a reference to the ServerFailSoft (http.ServerResponse)
      */
-    _flush(done){
+    _end(done){
         extraStat(this.stream.path, (error, stat) => {
             if(error) return this.destroy(error)
-            this.writeHead(200, {
+            this.pipes.writeHead(200, {
                 'Content-Length': stat.filestat.size,
                 'Content-Type'  : stat.mimetype,
                 'x-Content-Mode': stat.filemode,
