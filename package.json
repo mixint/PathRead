@@ -4,7 +4,7 @@
   "description": "A Transflect stream to write informative headers and stream a file from disk",
   "main": "PathRead.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node examples/simplePathRead.js"
   },
   "keywords": [
     "mime",
