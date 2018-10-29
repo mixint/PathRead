@@ -17,7 +17,7 @@
   "license": "SEE LICENSE IN CONTINUITY.LICENSE",
   "dependencies": {
     "@mixint/extrastat": "1.0.0",
-    "@mixint/transflect": "0.6.1",
+    "@mixint/transflect": "0.6.3",
     "parsedmessage": "3.0.1",
     "serverfailsoft": "2.0.2"
   }
